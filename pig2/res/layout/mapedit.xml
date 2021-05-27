@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<LinearLayout 
+	android:id="@+id/LinearLayout02" 
+	android:layout_width="wrap_content" 
+	android:layout_height="900dip">
+	</LinearLayout>
+
+
+
+	<LinearLayout
+	android:id="@+id/LinearLayout01" 
+	android:orientation="horizontal"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+	</LinearLayout>
+	
+	<LinearLayout 
+	android:id="@+id/LinearLayout03" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content">
+	
+	</LinearLayout>
+
+	<Button
+	    android:id="@+id/Button07"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="遊玩" />
+
+	<Button
+	    android:id="@+id/Button08"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="編輯" />
+
+	<Button
+	    android:id="@+id/Button09"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="刪除" />
+
+	<Button
+	    android:id="@+id/Button10"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="返回" />
+
+</LinearLayout>
